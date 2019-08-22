@@ -48,7 +48,12 @@ def printer(attendees)
 end
 end
 
-
+#alternate way
+#attendees.each_with_index do |name, index|
+#puts badge_maker(name)
+#puts assign_room(name, index + 1)
+#end
+#end
 
 
 
