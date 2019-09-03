@@ -2,9 +2,9 @@ require 'spec_helper'
 
 describe 'conference_badges' do
 
-  let(:name) {"Arel"}
-  let(:attendees) {["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]}
-  let(:badges) {[
+  let('name') {"Arel"}
+  let('list of attendees') {["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]}
+  let('badges') {[
                   "Hello, my name is Edsger.",
                   "Hello, my name is Ada.",
                   "Hello, my name is Charles.",
@@ -14,7 +14,7 @@ describe 'conference_badges' do
                   "Hello, my name is Matz."
                ]}
 
-  let(:room_assignments) {[
+  let('assing rooms') {[
                             "Hello, Edsger! You'll be assigned to room 1!",
                             "Hello, Ada! You'll be assigned to room 2!",
                             "Hello, Charles! You'll be assigned to room 3!",
